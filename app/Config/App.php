@@ -16,7 +16,8 @@ class App extends BaseConfig
      *
      *    http://example.com/
      */
-    public string $baseURL = 'http://localhost/tienda';
+    //public string $baseURL = 'http://localhost/tienda';
+    public string $baseURL = 'http://appwebuteq.us-east-1.elasticbeanstalk.com/';
 
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.
